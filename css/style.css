@@ -1,0 +1,726 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-size: 14px;
+    font-family: "Microsoft Yahei","宋体",Tahoma,Arial,Helvetica,STHeiti;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border-style:none;
+} 
+/*顶部导航样式*/
+.headerTop{
+    height: 48px;
+    background: #A954CF;
+    font-size: 14px;
+    color: #FFF;
+}
+.headerTop .headerTopMain{
+    width: 1200px;
+    margin: 0 auto;
+    height: 48px;
+}
+.headerTop .headerTopMain .headerTopMainLeft{
+    float: left;
+}
+.headerTop .headerTopMain .headerTopMainLeft  ul  li{
+    float: left;
+}
+.headerTop .headerTopMain .headerTopMainLeft  ul  .hostLineImg{
+    margin-top:16px;
+    margin-right:8px;
+}
+.headerTop .headerTopMain .headerTopMainLeft  ul  .hostLine{
+    line-height: 48px;
+}
+.headerTop .headerTopMain .headerTopMainRight{
+    float: right;
+}
+.headerTop .headerTopMain .headerTopMainRight  ul  li{
+    margin-left: 55px;
+    float: left;
+}
+.headerTop .headerTopMain .headerTopMainRight  .fastReg  div,
+.headerTop .headerTopMain .headerTopMainRight  .immediatelyLogin  div{
+    float: left;
+}
+.headerTop .headerTopMain .headerTopMainRight  .fastReg .reg,
+.headerTop .headerTopMain .headerTopMainRight  .immediatelyLogin .login{
+    line-height: 48px;
+}
+.headerTop .headerTopMain .headerTopMainRight  .helpCenter,
+.headerTop .headerTopMain .headerTopMainRight  .newerGuide{
+    line-height: 48px;
+}
+.headerTop .headerTopMain .headerTopMainRight  .helpCenter a,
+.headerTop .headerTopMain .headerTopMainRight  .newerGuide a{
+    color: #FFF;
+}
+.headerTop .headerTopMain .headerTopMainRight  ul  .regImg,
+.headerTop .headerTopMain .headerTopMainRight  ul  .loginImg{
+    margin-top:16px;
+    margin-right:8px;
+}
+
+/*头部样式代码*/
+.header{
+    height: 110px;
+    background: #EBEBEB;
+    /*border-bottom: 1px #ccc solid;*/
+}
+.header  .main{
+    height: 110px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header  .main  .logo{
+    float: left;
+    margin-top:20px;
+}
+.header  .main  .nav{
+    float: right;
+    font-weight: bold;
+}
+.header  .main  .nav  ul  li{
+    list-style: none;
+    float: left;
+    line-height: 110px;
+    width: 75px;
+    margin-left: 40px;
+    height: 110px;
+    text-align: center;
+}
+.header  .main  .nav  a{
+    font-size: 18px;
+    color: #656565;
+    text-align: center;
+}
+.header  .main  .nav  #home  a{
+    color: #A954CF;
+}
+/*累积投资信息*/
+.investmentInfo{
+    width: 100%;
+    height: 260px;
+    background: #BC6CE1;
+}
+.investmentInfo  .main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.investmentInfo  .main  .cumulativeInvestor,
+.investmentInfo  .main  .dealTotal,
+.investmentInfo  .main  .totalRevenue{
+    float: left;
+}
+
+.investmentInfo  .main  .dealTotal{
+    margin:  0  120px;
+}
+.investmentInfo  .main  .totalRevenue{
+    float: left;
+}
+.investmentInfo  .main  .total{
+    font-size:35px;
+    color: #FFF;
+    text-align: center;
+}
+.investmentInfo  .main  .role{
+    font-size:20px;
+    color: #fff;
+    text-align: center;
+}
+.investmentInfo  .main  div{
+    width: 320px;
+    height: 260px;
+}
+.investmentInfo  .main  .cumulativeInvestorImg{
+    margin-top: 40px;
+    text-align: center;
+}
+.investmentInfo  .main  .totalRevenueImg{
+    margin-top:38px;
+    text-align: center;
+}
+.investmentInfo  .main  .dealTotalImg{
+    margin-top:38px;
+    text-align: center;
+}
+.investmentInfo  .main  .unit{
+    font-size:20px;
+}
+/*公告*/
+.notice .main{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+.notice .main  ul li{
+    float: left;
+    line-height: 60px;
+}
+.notice .main  ul .note{
+    font-size: 18px;
+    color: #9E1D2B;
+    font-weight: bold;
+}
+.notice .main  ul .content{
+    font-size: 16px;
+    color: #BB6BE0;
+}
+/*mainContent*/
+.mainContent{
+    margin-bottom: 35px;
+}
+.mainContent .main{
+    width: 1200px;
+    margin:  0 auto;
+    height: 1090px;
+}
+.mainContent .main .left{
+    float: left;
+    width: 855px;
+    height: 1090px;
+    font-size: 14px;
+}
+.mainContent .main .left .investmentImg{
+    margin-top:60px;
+}
+.mainContent .main .left  .leftContent{
+    margin: 40px 50px 40px 0px;
+    float: left;
+}
+.mainContent .main .left  .leftImg{
+    width: 75px;
+    float: left;
+    margin-top: 30px;
+}
+.mainContent .main .left  .fineRec .fineRecTop  p{
+    float: left;
+    line-height: 40px;
+}
+.mainContent .main .left  .fineRec{
+    height: 240px;
+}
+.mainContent .main .left  .fineRec .fineRecTop  .guarantee{
+    padding-top:8px;
+}
+.mainContent .main .left  .fineRec .fineRecTop  .countDown{
+    float: right;
+}
+.mainContent .main .left  .fineRec .fineRecTop  .guarantee,
+.mainContent .main .left  .fineRec .fineRecTop  .loanNumber
+{
+    margin: 0 40px;
+}
+.mainContent .main .left  .fineRec .fineRecTop  .fineRecName{
+    font-size: 16px;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter{
+    padding-top: 30px;
+}
+.mainContent .main .left  .fineRec  .fineRecFoot{
+    padding-top: 30px;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter,
+.mainContent .main .left  .fineRec  .fineRecFoot{
+    clear: both;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter  .fineRecCenterLeft,
+.mainContent .main .left  .fineRec  .fineRecCenter  .fineRecCenterMid,
+.mainContent .main .left  .fineRec  .fineRecCenter  .fineRecCenterRight{
+    float: left;
+}
+.mainContent .main .left  .fineRec  .fineRecFoot  p{
+    float: left;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter  .fineRecCenterLeft .amount{
+    font-size: 35px;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter  .fineRecCenterMid .rate{
+    font-size: 35px;
+    color: #EE283F;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter  .investmentNow  a{
+    text-decoration: none;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter  .fineRecCenterLeft{
+    margin-right: 70px;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter  .fineRecCenterMid{
+    margin-right: 135px;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter  .fineRecCenterRight{
+    margin-right: 160px;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter  .investmentNow{
+    margin-top:20px;
+    float: right;
+    width: 110px;
+    height: 40px;
+    background: #FFF;
+    border-radius: 5px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: #BC6CE1;
+    border: 1px solid #BC6CE1;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter  .investmentNow{
+    text-decoration: none;
+}
+.mainContent .main .left  .fineRec  .fineRecCenter  .fineRecCenterRight .limit{
+    font-size: 35px;
+    color: #EE283F;
+}
+.mainContent .main .left  .fineRec  .fineRecFoot  .start,
+.mainContent .main .left  .fineRec  .fineRecFoot  .repayment{
+    margin:0  40px;
+}
+.mainContent .main .left  .fineRec  .fineRecFoot  .security{
+    float: right;
+}
+.mainContent .main .left  .investmentlist{
+    clear: both;
+    margin-top: 10px;
+    height: 850px;
+}
+.mainContent .main .left  .investmentlist   .investInfoList{
+    height: 125px;
+}
+.mainContent .main .left  .investmentlist  .tips{
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.mainContent .main .left  .investmentlist  .more{
+    float: right;
+    margin-top:6px;
+}
+.mainContent .main .left  .investmentlist  .more  a{
+    color: #000;
+}
+.mainContent .main .left  .investmentlist  .time{
+    font-size: 20px;
+    color: #A02130
+}
+.mainContent .main .left  .investmentlist  .investmentNow{
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: #BC6CE1;
+    border: 1px solid #BC6CE1;
+    margin-left: 10px;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .investIitle{
+    margin-right: 30px;
+    width: 250px;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .identify{
+    width: 48px;
+    height: 16px;
+    background: #B767DB;
+    font-size: 10px;
+    color: #FFF;
+    text-align: center;
+    border-radius: 3px;
+    margin-right: 50px;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .yearRate{
+    margin-right: 48px;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .rateYear{
+    font-size: 35px;
+    color: #EF273F;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .title{
+    font-size: 16px;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .timeLimit{
+    font-size: 35px;
+    color: #656565;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .investIitle,
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .identify,
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .yearRate,
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .limit{
+    float: left;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .yearRate,
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .limit{
+    margin-top: 15px;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .investIitle{
+    margin-top: 10px;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .investmentRightNow{
+    float: right;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .safeAssurance  .safeAssuranceImg{
+    float: left;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .identify{
+    margin-top: 30px;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .onRepayment{
+    width: 110px;
+    height: 40px;
+    background: #B767DB;
+    border-radius: 5px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+}
+.mainContent .main .left  .investmentlist .investInfo .investInfoList .onRepayment  a{
+    color: #fff;
+}
+.mainContent .main .right{
+    float: right;
+    width: 345px;
+    height: 1090px;
+}
+.mainContent .main .right  .FinAn  a{
+    color: #000;
+}
+.mainContent .main .right  .FinAn{
+    margin: 30px  30px 15px 40px;
+    clear: both;
+}
+.mainContent .main .right  .FinAn  h3{
+    font-weight: normal;
+    width: 78px;
+    height: 28;
+    border-bottom: 3px solid #B767DB;
+    line-height: 28px;
+    margin-left: -15px;
+}
+.mainContent .main .right  .FinAn  .more {
+    float: right;
+    margin-right: 0px;
+    margin-top: 5px;
+}
+.mainContent .main .right  .FinAn  h3 {
+    float: left;
+}
+.mainContent .main .right  .FinAn  .date {
+    float: right;
+}
+.mainContent .main .right  .FinAn  ul {
+    padding-top: 20px;
+    clear: both;
+    color:#BC6CE1;
+    list-style: disc;
+}
+.mainContent .main .right  .FinAn  ul  li {
+    line-height: 35px;
+    height: 35px;
+}
+.mainContent .main .right  .FinAn  .th {
+    clear: both;
+    padding-top: 20px;
+}
+.mainContent .main .right  .FinAn  .th  div{
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+.mainContent .main .right  .FinAn  ul .date{
+    color: #000;
+}
+.mainContent .main .right  .FinAn .list,
+.mainContent .main .right  .FinAn .th{
+    clear: both;
+    margin-left: -30px;
+}
+.mainContent .main .right  .FinAn  .rank {
+    color: #000
+}
+.mainContent .main .right  .FinAn  .th{
+    font-size: 16px;
+}
+.mainContent .main .right  .FinAn  .list .rankList{
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+}
+.mainContent .main .right  .FinAn  .list .investTotal div,
+.mainContent .main .right  .FinAn  .list .rankName  div,
+.mainContent .main .right  .FinAn  .list .rankList  div{
+    height: 30px;
+}
+
+.mainContent .main .right  .FinAn  .list .rankName{
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+.mainContent .main .right  .FinAn  .list .investTotal{
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-top: 12px;
+}
+.mainContent .main .right  .FinAn  .list{
+    height: 160px;
+}
+/*金融机构*/
+.organization  .main{
+    width: 1200px;
+    height: 790px;
+    margin: 0 auto;
+}
+.organization  .main  h1{
+    text-align: center;
+    margin-top:52px;
+    line-height: 70px;
+    font-weight: normal;
+}
+.organization  .main  h2{
+    font-weight: normal;
+    color: #FFF;
+}
+.organization  .main  p{
+    text-align: center;
+    line-height: 40px;
+}
+.organization  .main  .organizationList {
+    margin-top:40px;
+    height: 490px;
+}
+.organization  .main  .organizationList  div.list{
+    height: 490px;
+    width: 362px;
+    float: left;
+    border: 1px solid #ccc;
+}
+.organization  .main  .organizationList  div.center{
+    margin:  0  54px;
+    border: 1px solid #ccc;
+}
+.organization  .main  .organizationList  div  div.top{
+    line-height: 98px;
+    text-align: center;
+    height: 98px;
+    background: #CE5CEA;
+}
+.organization  .main  .organizationList  .down .img,
+.organization  .main  .organizationList  .down .imgLeft{
+    float: left;
+}
+.organization  .main  .organizationList  .down{
+    margin-top:23px;
+}
+.organization  .main  .organizationList  .down .img{
+    margin-right: 25px;
+    margin-left: 24px;
+}
+.organization  .main  .organizationList  .down .imgLeft  .p{
+    font-size: 12px;
+    line-height: 20px;
+    width: 220px;
+}
+.organization  .main  .organizationList  .down .imgLeft  .p  a{
+    color: #000;
+}
+.organization  .main  .organizationList  .downList{
+    clear: both;
+    padding-top:20px;
+}
+.organization  .main  .organizationList  .down  .more{
+    font-size: 12px;
+    clear: both;
+    text-align: right;
+    margin-right: 15px;
+}
+.organization  .main  .organizationList  .down  .more  a{
+    color: #000;
+}
+.organization  .main  .organizationList  .downStyle{
+    margin-top:43px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.organization  .main  .organizationList  .downStyle  .coAgency{
+    width: 60px;
+    float: left;
+    margin: 0 12px;
+}
+.organization  .main  .organizationList  .downStyle  .coAgency  p{
+    font-size: 12px;
+}
+/*foot*/
+.foot{
+    border-top:solid 5px #BB6BE1;
+    height: 376px;
+}
+.foot  .main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.foot  .main  .link  div{
+    float: left;
+}
+.foot  .main  .link  div.linkImg{
+    margin: 0 28.5px;
+}
+.foot  .main  .link{
+    margin-top:80px;
+}
+.foot  .main  .link  h3{
+    float: left;
+}
+.foot  .main  .webMap{
+    clear: both;
+    padding-top:40px;
+}
+.foot  .main  .webMap  ul{
+    float: left;
+}
+.foot  .main  .webMap  ul.margin{
+    float: left;
+    margin: 0 62px;
+}
+.foot  .main  .webMap  a{
+    color: #000;
+}
+.foot  .main  .webMap  h3{
+    color: #000;
+    font-weight: normal;
+}
+.foot  .main  .webMap  .mobile{
+     font-size: 24px;
+}
+/*footer*/
+.footer {
+    height: 150px;
+    background: #BC6BE0;
+}
+.footer  .main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer  .main  .left{
+    float: left;
+    color: #FFF;
+    font-size: 12px;
+}
+.footer  .main  .left .copyRight{
+    font-size: 14px;
+}
+.footer  .main  .left  .address{
+    margin-top:30px;
+}
+.footer  .main  .left  .serviceHotline{
+    margin-top:10px;
+}
+.footer  .main  .left  .copyRight{
+    padding-top: 30px;
+}
+.footer  .main  .right{
+    float: right;
+}
+.footer  .main  .right  div{
+    float: right;
+}
+.footer  .main  .right  .footer1{
+    margin-top: 44px;
+    margin-left: 5px;
+}
+.footer  .main  .right  .footer2{
+    margin-top: 60px;
+    margin-left: 5px;
+}
+.footer  .main  .right  .footer3{
+    margin-top: 96px;
+    margin-left: 5px;
+}
+/*login*/
+.totalRevenue{
+    position: relative;
+}
+.investmentInfo .main div.loginBox{
+    clear: both;
+    background: #808080;
+    width: 338px;
+    height: 349px;
+    position:absolute;
+    top: -350px;
+    left: 0px;
+    z-index: 2;
+    border-radius: 6px;
+    opacity:0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.loginBox div.loginBoxInput{
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    margin-top: 30px;
+}
+.loginBox div.loginBoxInput input{
+    height: 37px;
+    width: 200px;
+    float: left;
+}
+.loginBox h2{
+    margin-top:40px;
+    text-align: center;
+}
+.loginBox label{
+    width: 39px;
+    height: 39px;
+    display: block;
+    float: left;
+    margin-left: 45px;
+}
+.loginBox   p  span.loginButton{
+    width: 90px;
+    height: 33px;
+    background: #fff;
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 55px;
+}
+.loginBox   p  span.loginButton a{
+    font-size: 15px;
+    color: #000;
+}
+.loginBox  p{
+    margin-top: 60px;
+}
+.loginBox  p  .forgetPsd{
+    margin-left: 45px;
+    line-height: 40px;
+}
+.loginBox  p  .freeLogin{
+    margin-left: 10px;
+}
+.loginBox  p  .forgetPsd  a{
+    color: #fff;
+}
+.loginBox  p  .freeLogin a{
+   color: #fff;
+}
+
+
+
+
+
+
+
